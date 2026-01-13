@@ -1,0 +1,33 @@
+{"level":30,"time":"2026-01-04T19:25:03.308Z","pid":4916,"hostname":"RenatoBarrosDesktop","msg":"Listening on 127.0.0.1:60302"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\api_tests\API_TEST_ROBOT\venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\api_tests\API_TEST_ROBOT\venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\api_tests\API_TEST_ROBOT\venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\api_tests\API_TEST_ROBOT\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\api_tests\API_TEST_ROBOT\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\api_tests\API_TEST_ROBOT\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\api_tests\API_TEST_ROBOT\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-01-04T19:25:03.624Z","pid":4916,"hostname":"RenatoBarrosDesktop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-01-04T19:25:03.625Z","pid":4916,"hostname":"RenatoBarrosDesktop","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\api_tests\API_TEST_ROBOT\venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\api_tests\API_TEST_ROBOT\venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\api_tests\API_TEST_ROBOT\venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\api_tests\API_TEST_ROBOT\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\api_tests\API_TEST_ROBOT\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\api_tests\API_TEST_ROBOT\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\api_tests\API_TEST_ROBOT\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-01-04T19:25:03.634Z","pid":4916,"hostname":"RenatoBarrosDesktop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-01-04T19:25:03.634Z","pid":4916,"hostname":"RenatoBarrosDesktop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-01-04T19:25:04.711Z","pid":4916,"hostname":"RenatoBarrosDesktop","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-01-04T19:25:04.712Z","pid":4916,"hostname":"RenatoBarrosDesktop","msg":"End of node method closeAllBrowsers"}
